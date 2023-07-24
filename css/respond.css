@@ -1,0 +1,79 @@
+@charset 'utf-8';
+
+
+/* mobile */
+@media all and (max-width:766px){
+
+    .main_logo{display: none;}
+    .login_btn{display: none;}
+    .gnb{display: none;}
+    .M_menu{display: none;}
+    .ad_inner{display: none;}
+
+    .Mgnb{ width: 100%;}
+    .Mgnb img{float: right; width: 37px; height: 37px; margin-top: -55px; margin-right: 10px;}
+    .main{width: 100%;font-size: 2em; padding-bottom: 30px; text-align: center;}
+    
+    .sub{width: 100%;}
+    .sub > li{font-size: 1.2rem; margin:20px 0;}
+
+    .main_logo { float: left;  width: 70px;margin-top:10px;margin-left:40px;}
+    .main_logo img{width: 100%;}
+    .mobile_logo{width: 250px; margin: 20px auto;}
+    .mobile_logo a{display: block;}
+    .mobile_logo img{width: 100%; }
+    .sub{display: none;}
+
+#container h2{width: 100px; font-size: 2em; padding-top:5px; text-align: center;
+    border-bottom: 5px solid #725de9; clear: both;}
+.game_list .box{float: left; width: 95%; margin: 2.5%; position: relative;}
+.game_list .box img{width: 100%; border-radius: 10px;}
+.game_list .box h3{font-size: 1.5em;padding: 10px; text-align:left; text-indent: -10px;}
+
+.game_list .box p{font-size: 1.2em;margin-top: -5px;}
+.game_list .box ion-icon{position: absolute;right: 10px; bottom: 16px;font-size:2.3em;}
+.game_list .box .buy{position: absolute; right: 50px; bottom:15px; width: 100px;height:30px;}
+#container:after{content:''; display: block; clear: both;}
+
+}
+
+/* tablet */
+@media all and (min-width:767px) and (max-width:1023px){
+
+.mobile_logo{display: none;}
+.M_menu{display: none;}
+.Mgnb{display: none;}
+.ad_mobile{display: none;}
+.gnb ul li a{font-size: 1.6em; font-weight: bold; }
+
+
+.gnb > ul > li{width: 110px; float:left; margin-top: 33px; text-align: center;}
+.gnb ul li ul li{width: 110px; font-size: 0.9em; padding: 10px 0;}
+.sub {display: none;}
+
+#inner .main{ padding: 32px 14px;}
+
+#visual{width: 100%;}
+
+.game_list .box{float: left; width: 48%; margin: 1%; position: relative;}
+.game_list .box img{width: 100%; border-radius: 10px;}
+.game_list .b7{display: none;}
+.game_list .box h3{font-size: 1.5em;padding: 10px; text-align:left; text-indent: -10px;}
+
+.game_list .box p{font-size: 1.2em;margin-top: -5px;}
+.game_list .box ion-icon{position: absolute;right: 10px; bottom: 16px;font-size:2.3em;}
+.game_list .box .buy{position: absolute; right: 50px; bottom:15px; width: 100px;height:30px;}
+#container:after{content:''; display: block; clear: both;}
+    
+}
+
+
+/* desktop */
+@media all and (min-width:1024px){
+    .mobile_logo{display: none;}
+    .Mgnb{display: none;}
+    .M_menu{display: none;}
+    .ad_mobile{display:none;}
+    
+    }
+    

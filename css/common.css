@@ -1,0 +1,16 @@
+@charset 'utf-8';
+@import url(http://font.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* reset */
+/* 각 모바일 디스클레이 크기에 최적화 */
+html.body{width: 100%; height: 100%;}
+
+*{margin: 0;padding: 0;}
+body{font-size: 12px; /* 현제페이지는 12px가 기본 글자크기로 지정 12px == 1em 의미 */
+    -webkit-text-size-adjust: none;} /* 글자크기조절방지 */
+li{list-style: none;}
+img{vertical-align: top;}
+img,fieldset,iframe{border: 0;}
+table{border-collapse: collapse;}
+a{text-decoration: none; color: #333;}
+.blind {position: absolute; top: -9999px;font-size: 0;}
